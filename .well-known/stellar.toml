@@ -2,6 +2,7 @@ VERSION="2.2.1"
 
 ACCOUNTS=[
 "GBGKEJ2USZZBT7WJFX6MQKRN2QF4UQMHI33KBYPYOGW3TTXL2BDZQZ2I",
+"GDVE36F4RNYAYSLLGKQVHGKGVO6URFJXMHZ7ZUZYOLHY4GB5UACSIV55",
 ]
 
 [DOCUMENTATION]
@@ -23,4 +24,16 @@ image="https://www.dcg-stellar.com/dcg.png"
 fixed_number=1000000
 max_number=1000000
 is_unlimited=false
-#DCG Asset was issued using the open and inclusive Stellar blockchain network.
+
+[[CURRENCIES]]
+code="XRP"
+status="live"
+display_decimals=2
+issuer="GDVE36F4RNYAYSLLGKQVHGKGVO6URFJXMHZ7ZUZYOLHY4GB5UACSIV55"
+anchor_asset_type="crypto"
+name="XRP"
+desc="In 2013, Digital Currency Group (DCG) recognized Ripple's potential and invested in XRP, affirming confidence in its cross-border payment vision. This early backing solidified DCG's influence in crypto investments. Since then, Ripple has emerged as a key player in fintech, while DCG remains a top investor in blockchain innovation."
+image="https://www.dcg-stellar.com/xrp.png"
+fixed_number=1000000
+max_number=1000000
+is_unlimited=false
